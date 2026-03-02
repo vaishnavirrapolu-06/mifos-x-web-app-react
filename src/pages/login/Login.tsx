@@ -195,13 +195,16 @@ const Login = () => {
                 name="password"
                 value={form.password}
                 onChange={handleChange}
-                type={showPassword ? "text" : "password"} // Dynamic type toggle
+                type={showPassword ? "text" : "password"}
                 placeholder="Password"
-                className="dark:bg-zinc-800 dark:text-white pr-10" // Padding for the icon
+                className="dark:bg-zinc-800 dark:text-white pr-10"
               />
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
+                // CodeRabbit Fix: Adding accessibility labels
+                aria-label={showPassword ? "Hide password" : "Show password"}
+                aria-pressed={showPassword}
                 className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
               >
               {showPassword ? (
@@ -212,7 +215,7 @@ const Login = () => {
               </button>
             </div>
 
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="items-center flex space-x-2 mb-4">
               <Checkbox id="terms" />
               <label htmlFor="terms" className="text-base dark:text-white">
                 Remember me
@@ -272,16 +275,13 @@ const Login = () => {
               <DropdownMenuContent className="dark:bg-zinc-800 dark:text-white">
                 <DropdownMenuGroup>
                   <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://groups.google.com/g/mifosusers"></a>User
-                    Group
+                    <a href="https://groups.google.com/g/mifosusers">User Group</a>
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://groups.google.com/g/mifosdeveloper"></a>
-                    Developer Group
+                    <a href="https://groups.google.com/g/mifosdeveloper">Developer Group</a>
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://mifos.org/resources/community/communications/#mifos-irc"></a>
-                    IRC
+                    <a href="https://mifos.org/resources/community/communications/#mifos-irc">IRC</a>
                   </DropdownMenuItem>
                 </DropdownMenuGroup>
               </DropdownMenuContent>
@@ -296,16 +296,13 @@ const Login = () => {
               <DropdownMenuContent className="dark:bg-zinc-800 dark:text-white">
                 <DropdownMenuGroup>
                   <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://mifosforge.jira.com/wiki/spaces/MDZ/pages/92012624/Key+Design+Principles"></a>
-                    Key Design Principles
+                    <a href="https://mifosforge.jira.com/wiki/spaces/MDZ/pages/92012624/Key+Design+Principles">Key Design Principles</a>
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://sourceforge.net/projects/mifos/"></a>
-                    Working with code
+                    <a href="https://sourceforge.net/projects/mifos/">Working with code</a>
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://mifos.org/take-action/donate-now/"></a>
-                    Donate
+                    <a href="https://mifos.org/take-action/donate-now/">Donate</a>
                   </DropdownMenuItem>
                 </DropdownMenuGroup>
               </DropdownMenuContent>

@@ -14,6 +14,7 @@
     "generate-sdk": "npx openapi-generator-cli generate -i fineract.yaml -g typescript-axios -o src/fineract-api --additional-properties=supportsES6=true"
   },
   "dependencies": {
+    "@esbuild/win32-x64": "^0.27.3",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
@@ -35,6 +36,7 @@
     "@radix-ui/react-toggle-group": "^1.1.11",
     "@radix-ui/react-tooltip": "^1.2.7",
     "@reduxjs/toolkit": "^2.8.2",
+    "@rollup/rollup-win32-x64-msvc": "^4.57.1",
     "@tailwindcss/vite": "^4.1.7",
     "axios": "^1.9.0",
     "chart.js": "^4.5.0",
