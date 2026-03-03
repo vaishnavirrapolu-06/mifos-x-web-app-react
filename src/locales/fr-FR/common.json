@@ -328,6 +328,15 @@
     "createJournalEntry": "Créer une écriture comptable",
     "chartOfAccounts": "Plan comptable"
   },
+  "notifications": {
+    "createSuccess": "Créé avec succès !",
+    "updateSuccess": "Mis à jour avec succès !",
+    "deleteSuccess": "Supprimé avec succès !",
+    "actionSuccess": "Action terminée avec succès !",
+    "saveSuccess": "Modifications enregistrées avec succès !",
+    "noNotifications": "Vous n'avez aucune notification",
+    "title": "Notification"
+  },
   "pagination": {
     "itemsPerPage": "Éléments par page",
     "rowsPerPage": "Lignes par page",

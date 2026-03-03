@@ -328,6 +328,15 @@
     "createJournalEntry": "Crea voce di giornale",
     "chartOfAccounts": "Piano dei conti"
   },
+  "notifications": {
+    "createSuccess": "Creato con successo!",
+    "updateSuccess": "Aggiornato con successo!",
+    "deleteSuccess": "Eliminato con successo!",
+    "actionSuccess": "Azione completata con successo!",
+    "saveSuccess": "Modifiche salvate con successo!",
+    "noNotifications": "Non hai notifiche",
+    "title": "Notifica"
+  },
   "pagination": {
     "itemsPerPage": "Elementi per pagina",
     "rowsPerPage": "Righe per pagina",

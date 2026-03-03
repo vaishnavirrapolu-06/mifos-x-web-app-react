@@ -194,35 +194,24 @@ const Login = () => {
                 name="password"
                 value={form.password}
                 onChange={handleChange}
-<<<<<<< HEAD
                 type={showPassword ? "text" : "password"}
                 placeholder="Password"
-=======
-                type={showPassword ? 'text' : 'password'}
-                placeholder={t('auth:login.password')}
->>>>>>> 112300463f4167d0f0368faf6c3c4dc9c740d7c6
                 className="dark:bg-zinc-800 dark:text-white pr-10"
               />
               <Button
                 type="button"
                 variant="ghost"
                 size="icon"
-                className="absolute right-0 top-0 h-full px-3 hover:bg-transparent"
                 onClick={() => setShowPassword(!showPassword)}
-<<<<<<< HEAD
                 // CodeRabbit Fix: Adding accessibility labels
                 aria-label={showPassword ? "Hide password" : "Show password"}
                 aria-pressed={showPassword}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
-=======
-                onMouseDown={(e) => e.preventDefault()}
-                aria-label={showPassword ? t('auth:login.hidePassword') : t('auth:login.showPassword')}
->>>>>>> 112300463f4167d0f0368faf6c3c4dc9c740d7c6
+                className="absolute right-0 top-0 h-full px-3 hover:bg-transparent text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
               >
                 {showPassword ? (
-                  <EyeOff className="h-4 w-4 text-zinc-500" />
+                  <EyeOff className="h-4 w-4" />
                 ) : (
-                  <Eye className="h-4 w-4 text-zinc-500" />
+                  <Eye className="h-4 w-4" />
                 )}
               </Button>
             </div>
@@ -287,7 +276,6 @@ const Login = () => {
               <DropdownMenuContent className="dark:bg-zinc-800 dark:text-white">
                 <DropdownMenuGroup>
                   <DropdownMenuItem className="cursor-pointer">
-<<<<<<< HEAD
                     <a href="https://groups.google.com/g/mifosusers">User Group</a>
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
@@ -295,19 +283,6 @@ const Login = () => {
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
                     <a href="https://mifos.org/resources/community/communications/#mifos-irc">IRC</a>
-=======
-                    <a href="https://groups.google.com/g/mifosusers">{t('common:nav.userGroup')}</a>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://groups.google.com/g/mifosdeveloper">
-                      {t('common:nav.developerGroup')}
-                    </a>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://mifos.org/resources/community/communications/#mifos-irc">
-                      {t('common:nav.irc')}
-                    </a>
->>>>>>> 112300463f4167d0f0368faf6c3c4dc9c740d7c6
                   </DropdownMenuItem>
                 </DropdownMenuGroup>
               </DropdownMenuContent>
@@ -322,7 +297,6 @@ const Login = () => {
               <DropdownMenuContent className="dark:bg-zinc-800 dark:text-white">
                 <DropdownMenuGroup>
                   <DropdownMenuItem className="cursor-pointer">
-<<<<<<< HEAD
                     <a href="https://mifosforge.jira.com/wiki/spaces/MDZ/pages/92012624/Key+Design+Principles">Key Design Principles</a>
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
@@ -330,21 +304,6 @@ const Login = () => {
                   </DropdownMenuItem>
                   <DropdownMenuItem className="cursor-pointer">
                     <a href="https://mifos.org/take-action/donate-now/">Donate</a>
-=======
-                    <a href="https://mifosforge.jira.com/wiki/spaces/MDZ/pages/92012624/Key+Design+Principles">
-                      {t('common:nav.keyDesignPrinciples')}
-                    </a>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://sourceforge.net/projects/mifos/">
-                      {t('common:nav.workingWithCode')}
-                    </a>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem className="cursor-pointer">
-                    <a href="https://mifos.org/take-action/donate-now/">
-                      {t('common:nav.donate')}
-                    </a>
->>>>>>> 112300463f4167d0f0368faf6c3c4dc9c740d7c6
                   </DropdownMenuItem>
                 </DropdownMenuGroup>
               </DropdownMenuContent>

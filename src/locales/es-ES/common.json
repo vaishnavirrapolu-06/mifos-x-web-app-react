@@ -41,7 +41,7 @@
     "AZ": "Azerbaiyán",
     "BA": "Bosnia y Herzegovina",
     "BB": "Barbados",
-    "BD": "Bangladés",
+    "BD": "Bangladés",
     "BE": "Bélgica",
     "BF": "Burkina Faso",
     "BG": "Bulgaria",
@@ -147,9 +147,9 @@
     "MN": "Mongolia",
     "MR": "Mauritania",
     "MT": "Malta",
-    "MU": "Mauricio",
+    "MU": "Mauritius",
     "MV": "Maldivas",
-    "MW": "Malaui",
+    "MW": "Malawi",
     "MX": "México",
     "MY": "Malasia",
     "MZ": "Mozambique",
@@ -327,6 +327,15 @@
     "frequentPostings": "Publicaciones frecuentes",
     "createJournalEntry": "Crear asiento contable",
     "chartOfAccounts": "Plan de cuentas"
+  },
+  "notifications": {
+    "createSuccess": "¡Creado con éxito!",
+    "updateSuccess": "¡Actualizado con éxito!",
+    "deleteSuccess": "¡Eliminado con éxito!",
+    "actionSuccess": "¡Acción completada con éxito!",
+    "saveSuccess": "¡Cambios guardados con éxito!",
+    "noNotifications": "No tienes notificaciones",
+    "title": "Notificación"
   },
   "pagination": {
     "itemsPerPage": "Elementos por página",

@@ -328,6 +328,15 @@
     "createJournalEntry": "Create Journal Entry",
     "chartOfAccounts": "Chart of Accounts"
   },
+  "notifications": {
+    "createSuccess": "Created successfully!",
+    "updateSuccess": "Updated successfully!",
+    "deleteSuccess": "Deleted successfully!",
+    "actionSuccess": "Action completed successfully!",
+    "saveSuccess": "Changes saved successfully!",
+    "noNotifications": "You don't have any notifications",
+    "title": "Notification"
+  },
   "pagination": {
     "itemsPerPage": "Items per page",
     "rowsPerPage": "Rows per page",
